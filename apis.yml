@@ -1,7 +1,24 @@
 aid: nabu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nabu.png
 name: Nabu
-description: Nabu is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nabu is an AI-powered customs clearance platform that automates international trade
+  compliance end to end. It collects shipment data from emails, PDFs, Excel files, databases, and
+  TMS records via API, EDI, SFTP, or email, prepares complete compliant customs files, and generates
+  pre-filled import/export declarations ready for submission in standard customs software. Nabu targets
+  customs brokers and declaration teams, offering autonomous processing, workload flexibility to absorb
+  staffing gaps, and full auditability across multiple regions and local regulatory regimes. Backed
+  by Techstars. No public developer API, documentation, or SDKs are published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/nabu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Customs
+- Trade Compliance
+- Logistics
+- Supply Chain
+- International Trade
+- Automation
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nabu-domain-security.yml
+- type: LLMsTxt
+  url: llms/nabu-llms.txt
 - type: Website
   url: https://nabu.io/
+- type: Blog
+  url: https://www.nabu.io/blog
+- type: StatusPage
+  url: https://status.nabu.io/
+- type: Support
+  url: https://www.nabu.io/contact
+- type: Login
+  url: https://app.nabu.io/
+- type: GitHubOrganization
+  url: https://github.com/nabu-io
+- type: PrivacyPolicy
+  url: https://www.nabu.io/politique-de-confidentialite
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nabu-io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1

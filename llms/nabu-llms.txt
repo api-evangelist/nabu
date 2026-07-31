@@ -1,0 +1,35 @@
+# Nabu
+
+> Nabu is an AI-powered customs clearance platform that automates international trade compliance end to end. It collects shipment data from emails, PDFs, Excel files, databases, and TMS records, prepares complete compliant customs files, and generates pre-filled import/export declarations ready for submission in standard customs software. Nabu targets customs brokers and declaration teams. Backed by Techstars. No public developer API, documentation, or SDKs are published at this time.
+
+## Company
+
+- [Website](https://nabu.io/): Product marketing site (English/French).
+- [About](https://www.nabu.io/a-propos): Company background and team.
+- [Contact](https://www.nabu.io/contact): Support and sales contact.
+- [Application](https://app.nabu.io/): Customer login to the Nabu web application.
+
+## Content
+
+- [Blog](https://www.nabu.io/blog): Articles on customs procedures, trade compliance, logistics, and OCR/AI document processing (primarily in French).
+
+## Operations
+
+- [Status page](https://status.nabu.io/): Live operational status for Nabu services.
+
+## Code
+
+- [GitHub organization](https://github.com/nabu-io): Nabu.io organization; includes `public-js`, publicly available JavaScript utilities. No published API client SDK.
+
+## Legal
+
+- [Privacy policy](https://www.nabu.io/politique-de-confidentialite): Politique de confidentialité (French).
+
+## Social
+
+- [LinkedIn](https://www.linkedin.com/company/nabu-io): Company updates and hiring.
+
+## Notes
+
+- No public API, OpenAPI specification, developer portal, or API documentation was found (checked /.well-known/*, /llms.txt, /openapi.json, /docs, api.nabu.io — all absent or private).
+- `api.nabu.io` responds but is a private application backend (returns `ok` / HTTP 405 on GET, no public spec or docs).
